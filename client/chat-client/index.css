@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height: 100%;
+    margin: 0;
+
+}
+#app_title{
+    height: 5%;
+    margin:0;
+    text-align: center;
+}
+#chat_form{
+    margin-top: 0;
+    margin-left:auto;
+    margin-right: auto;
+    padding:0;
+    width: 100%;
+    height: 95%;
+}
+#chat_area{
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    height:100%
+}
+#chat_box_area{
+    margin-left:auto;
+    margin-right:auto;
+    padding:0;
+    width: 90%;
+    height: 85%;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    color:gray;
+}
+
+#input_area{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5px;
+    margin-bottom:5px;  
+    width:90%;
+    height:15%;
+}
+
+#message_input_box {
+    margin:0;
+    padding:0;
+    white-space: wrap;
+    width: 69%;
+    border: 2px solid black;
+    height: 90%;
+    float: left;
+}
+
+#send_message_button{
+    float:right;
+    text-align: center;
+    width:30%;
+    height:25%;
+    border: 2px solid black;
+    background-color: grey;
+    margin-right:0;
+    padding:0;
+}
+
+#send_message_button .onhover{
+    cursor: default;
+}
+
+#text_message{
+    float: left;
+    margin-left: 2%;
+    margin-right:98%;
+    margin-top: 5px;
+    padding:1em;
+    min-height: 1em;
+    max-width: 50em;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#my_message{
+    float: right;
+    margin-right: 2%;
+    margin-left:98%;
+    margin-top: 5px;
+    padding:1em;
+    min-height: 1em;
+    width: 10em;
+    background-color: greenyellow;
+    border: 2px solid black;
+    border-radius: 10px;
+}
